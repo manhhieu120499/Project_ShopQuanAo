@@ -20,19 +20,18 @@
     top: 0;
     left: 0;
     padding: 10px 0;
-    z-index: 1;
 }
 
 .left-header {
-    width: 270px;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .left-header .picture {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -129,11 +128,6 @@
     border-radius: 10px;
 }
 
-.left_picture img:hover {
-    transform: scale(1.1);
-    transition: ease all 0.7s;
-}
-
 .right_description {
     width: 700px;
     height: 440px;
@@ -152,12 +146,10 @@
     height: 300px;
     border-radius: 10px;
     object-fit: cover;
-    margin-top: 10px;
 }
 
 .right_description > .picture_etc > img:hover {
-    transform: scale(1.1);
-    transition: ease all 0.7s;
+    
 }
 
 .right_description .title_album {
