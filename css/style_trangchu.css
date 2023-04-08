@@ -85,6 +85,11 @@
     margin-left: 10px;
 }
 
+.right-header .btn a {
+    color: white;
+    text-decoration: none;
+}
+
 
 
 /* slide bar*/
