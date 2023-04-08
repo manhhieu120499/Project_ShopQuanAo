@@ -1,0 +1,133 @@
+/*PC*/
+@media (min-width:1040px) {
+    
+}
+
+/*SMALL PC and IPAD PRO*/
+@media (min-width:1024px)  and (max-width:1039px) {
+    .search__icon {
+        left: 70px;
+    }
+
+    #right__nav {
+        width: 50%;
+        margin-right: 18px;
+    }
+
+    #right__nav p {
+        margin-left: 16px;
+    }
+
+    #left__nav {
+        width: 45%;
+    }
+
+    #product_list {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 98%;
+        margin-left: -26px;
+    }
+
+    #footer_left {
+        margin-left: 25px;
+        width: 50%;
+    }
+}
+
+/*TABLET*/
+@media (min-width:740px) and (max-width:1023px) {
+    .search__icon {
+        left: 50px;
+    }
+
+    .search {
+        width: 200px;
+        padding-left: 60px;
+    }
+
+    #right__nav {
+        width: 50%;
+    }
+
+    #right__nav p {
+        margin-left: 16px;
+    }
+
+    #left__nav {
+        width: 45%;
+    }
+
+    #product_list {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .product_list_iterm {
+        margin-bottom: 60px;
+    }
+
+    .list_style_none {
+        margin-right: 4px;
+    }
+
+    #footer_left {
+        margin-left: 30px;
+        width: 50%;
+    }
+
+} 
+
+/*PHONE*/
+@media (max-width:739px) {
+    #product_list {
+        display: grid;
+        grid-template-columns: auto;
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    #footer {
+        display: block;
+        height: 350px;
+    }
+
+    #footer_left, #footer_right {
+        padding: 20px 10px 0;
+    }
+
+    .product_list_iterm {
+        margin-bottom: 20px;
+    }
+
+    #left__nav_ul_list {
+        display: block;
+    }
+
+    #left__nav_ul {
+        display: none;
+    }
+    
+    .search {
+        width: 150px;
+        padding-left: 30px;
+    }
+
+    #left__nav {
+        width: 10%;
+    }
+
+    #right__nav {
+        width: 90%;
+    }
+
+    #right__nav p {
+        margin-left: 16px;
+    }
+
+    .search__icon {
+        left: -3500px;
+    }
+}
