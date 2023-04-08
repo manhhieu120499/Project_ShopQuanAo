@@ -18,7 +18,6 @@ html {
     color: red;
 }
 
-
 /* NAV */
 .nav {
     position: fixed;
@@ -35,12 +34,6 @@ html {
     width: 38%;
     line-height: 74px;
     padding-left: 25px;
-}
-
-#left__nav_ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
 }
 
 .list_style_none {
@@ -86,30 +79,80 @@ html {
     cursor: pointer;
 }
 
+#left__nav_ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* display: none; */
+}
+
+#left__nav_ul_list {
+    display: none;
+    list-style-type: none;
+    
+}
+
+#css:hover #subnav_none {
+    display: block;
+}
+
+#css {
+    position: relative;
+}
+
+#subnav_none {  
+    position: absolute;
+    background-color: #fff;
+    top: 65px;
+    left: -20px;
+    min-width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);   
+    list-style: none; 
+    flex-direction: column;
+    display: none;
+}
+
+
+#subnav_none > li {
+    border: 1px solid #FC8D0C;
+    padding-left: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#subnav_none > li > a:hover {
+    background-color: #FFDAB9;
+}
+
+#css {
+    margin-top: 5px;
+}
+
 /* SLIDER */
+#slider  {
+    background-color: #FFDAB9;
+}
+
 #autumn {
     width: 100%;
-    height: 800px;
+    min-width: 100%;
+    height: auto;
     padding-top: 72px;
-    object-fit: cover;
+    object-fit: contain;
+    display: block;
 }
 
 /*  PRODUCT */
 #container {
-    width: 80%;
+    width: 90%;
     margin: 40px 10%;
 }
 
-#product_detail_iterm {
-    display: flex;
-    justify-content: space-around;
-}
-
 .product_list_iterm img {
-    width: 289px;
+    width: 100%;
     height: 336px;
     border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-right-radius: 30px; 
 }
 
 .product_list_iterm {
@@ -117,6 +160,7 @@ html {
     height: 403px;
     background-color: #D9D9D9;
     border-radius: 30px;
+    margin: 60px 0;
 }
 
 .product_list_iterm p {
@@ -125,19 +169,10 @@ html {
     margin-top: 6px;
 }
 
-.product_list_1 {
-    display: flex;
-    justify-content: space-between;
-}
-
 #product_list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
 
-.product_list_1:last-child {
-    margin-top: 44px;
 }
 
 /* FOOTER */
@@ -146,9 +181,6 @@ html {
     height: 200px;
     background-color: #FC8D0C;
     color: #fff;
-}
-
-#footer {
     display: flex;
     justify-content: space-around;
 }
