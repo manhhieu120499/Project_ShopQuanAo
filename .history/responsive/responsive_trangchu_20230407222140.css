@@ -1,0 +1,31 @@
+@media screen and (max-width: 1024px){
+    .left-header {
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    .right-header .link {
+        width: 350px;
+        margin-left: 60px;
+    }
+
+    .btn {
+        margin-right: 30px;
+    }
+
+    .album_one .left_picture img{
+        width: 250px;
+        height: 350px;
+    }
+    
+    .album_one .right_description {
+        width: 650px;
+        margin-right: 20px;
+    }
+
+    .picture_etc > img{
+        width: 150px;
+        height: 100px;
+    }
+}
+

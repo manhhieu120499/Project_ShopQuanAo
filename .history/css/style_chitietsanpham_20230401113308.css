@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    background-image: url(/image/image_chitietsanpham/background.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 70%;
+    height: 400px;
+    background-color: #FEEAC3;
+}
+
+.container .left {
+    width: 15%;
+}

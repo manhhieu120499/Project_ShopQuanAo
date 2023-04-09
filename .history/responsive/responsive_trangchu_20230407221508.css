@@ -1,0 +1,16 @@
+@media screen and (max-width: 1024px){
+    .left-header {
+        width: 230px;
+        margin-left: 10px;
+    }
+
+    .right-header .link {
+        width: 350px;
+        margin-left: 60px;
+    }
+
+    .btn {
+        margin-right: 30px;
+    }
+}
+

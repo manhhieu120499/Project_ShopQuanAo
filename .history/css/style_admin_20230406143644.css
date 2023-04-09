@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #639ACD;
+}
+
+.header p {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    line-height: 80px;
+    margin-left: 10px;
+}

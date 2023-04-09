@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #639ACD;
+}
+
+.header p {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: calc(100vh - 80px);
+}
+
+.top_sidebar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 10px 0 10px 10px;
+    gap: 20px;
+}
+
+.des p{
+   margin: 5px 0;
+   font-weight: bold;
+}
+
+.des p:nth-child(2) {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.content_sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.content_sidebar > a {
+    color: black;
+    text-decoration: none;
+    width: 80%;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+.top_sidebar > img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.center {
+    width: 85%;
+}
+
+.top_center {
+    width: 97%;
+    height: 250px;
+    margin: 20px auto;
+    background-color: #D9D9D9;
+}
+
+.top_center ul {
+    display: flex;
+    padding: 0;
+    width: 95%;
+
+}
+
+.top_center ul li {
+    list-style: none;
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+    border-right: 1px solid black;
+}
+
+.top_center ul li > p {
+    margin-bottom: 5px;
+}
+
+.top_center ul li:last-child {
+    border: none;
+}
+
+.bottom_center {
+    width: 90%;
+}
+
+.bottom_center .title {
+    width: 200px;
+    height: 50px;
+    background-color: #D9D9D9;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    width: 40%;
+    background-color: #D9D9D9;
+    display: flex;
+}
+
+.row_detail ul{
+    width: 100%;
+    background-color: #D9D9D9;
+
+}
+
+.row_detail ul li {
+    list-style: none;
+}
+
+
+
+
+
+

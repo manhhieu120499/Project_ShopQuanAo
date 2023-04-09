@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px){
+    .left-header {
+        width: 220px;
+    }
+
+    .right-header .link {
+        width: 350px;
+        margin-left: 40px;
+    }
+}
+

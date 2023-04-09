@@ -1,0 +1,161 @@
+/*iphone x*/
+@media only screen and (max-width: 376px) {
+    .wrap {
+        width: 375px;
+    }
+    .header {
+        width: 375px;
+        display: flex;
+        flex-direction: column;     
+    }
+
+    .left-header {
+        justify-content: center;
+        gap: 25px;
+    }
+    .right-header .link {
+        width: 0;
+    }
+
+    .right-header .link > a{
+        display: none;
+    }
+
+    .left-header .picture {
+        width: 50px;
+        height: 50px;
+
+    }
+    
+    .right-header {
+        width: 375px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .right-header .btn {
+       display: flex; 
+       width: 300px;
+       justify-content: center;
+    }
+
+    .right-header .btn > button{
+       width: 95px;
+       height: 40px;
+       font-size: 12px;
+       text-align: center;
+       margin-top: 5px;
+    }
+
+    .album {
+        width: 375px;
+    }
+
+    .album_one {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        align-items: center;
+        margin-top: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .album_one .left_picture {
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .album_one .right_description {
+        width: 330px;  
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .right_description .title_album {
+        font-size: 18px;
+        
+    }
+
+    .right_description .desc {
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .right_description > .picture_etc > img {
+        width: 100px;
+        height: 130px;
+    }
+
+    .album_two .left_picture> img{
+        width: 100px;
+        /* padding-bottom: 15px; */
+        margin-top: 0;
+    }
+
+    .album_two {
+        padding-bottom: 5px;
+    }
+
+    .album_two .right_description {
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+
+    .footer {
+        width: 375px;
+        align-items: baseline;
+        gap: 14px;
+    }
+
+    .right_footer, .left_footer {
+        width: 50%;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .left_footer p {
+        width: 95%;
+        margin-left: 5px;
+        text-align: justify;
+    }
+
+    .right_footer p {
+        width: 90%;
+    }
+
+    .link_responsive {
+        display: block;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .link_activated {
+        position: absolute;
+        width: 115px;
+        background-color: white;
+        display: none;
+    }
+
+    .link_activated > a{
+        width: 115px;
+        height: 40px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        border: 1px solid #d9d9d9;
+        line-height: 40px;
+    }
+
+    .link_activated > a:hover {
+        color: orange;
+    }
+
+    .link_responsive:hover > .link_activated {
+        display: block;
+    } 
+}
+
+
+

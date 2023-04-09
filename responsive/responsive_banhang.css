@@ -26,80 +26,91 @@
         display: grid;
         grid-template-columns: auto auto auto;
         width: 98%;
-        margin-left: -26px;
     }
 
     #footer_left {
-        margin-left: 25px;
-        width: 50%;
+        margin-left: 30px;
+        width: 40%;
     }
+
+    #product_detail {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #product_list {
+        column-gap: 26px;
+    }
+
 }
 
 /*TABLET*/
 @media (min-width:740px) and (max-width:1023px) {
-    .search__icon {
-        left: 50px;
+    #product_list {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 100px;
     }
 
-    .search {
-        width: 200px;
-        padding-left: 60px;
+    #product_detail {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #footer_left {
+        margin-left: 20px;
     }
 
     #right__nav {
         width: 50%;
-    }
-
-    #right__nav p {
-        margin-left: 16px;
+        /* margin-right: 0px; */
     }
 
     #left__nav {
         width: 45%;
     }
 
-    #product_list {
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 90%;
-        margin-left: 20px;
+    .search__icon {
+        left: 70px;
     }
 
-    .product_list_iterm {
-        margin-bottom: 60px;
-    }
-
-    .list_style_none {
-        margin-right: 4px;
-    }
-
-    #footer_left {
-        margin-left: 30px;
-        width: 50%;
+    .search {
+        width: 200px;
     }
 
 } 
 
 /*PHONE*/
 @media (max-width:739px) {
-    #product_list {
+    #left__nav {
+        width: 13%;
+    }
+
+    #right__nav {
+        width: 87%;
+        margin-right: 1800px;
+    }
+
+    #right__nav p {
+        margin-left: 16px;
+    }
+
+    .search__icon {
+        left: -3500px;
+    }
+
+    .search {
+        width: 180px;
+        padding: 20px;
+    }
+
+    #product_detail {
         display: grid;
         grid-template-columns: auto;
-        width: 90%;
-        margin-left: 10px;
-    }
-
-    #footer {
-        display: block;
-        height: 350px;
-    }
-
-    #footer_left, #footer_right {
-        padding: 20px 10px 0;
     }
 
     .product_list_iterm {
-        margin-bottom: 20px;
+        margin: 20px 26px;
     }
 
     #left__nav_ul_list {
@@ -109,25 +120,13 @@
     #left__nav_ul {
         display: none;
     }
-    
-    .search {
-        width: 150px;
-        padding-left: 30px;
+
+    #footer {
+        display: block;
+        height: 350px;
     }
 
-    #left__nav {
-        width: 10%;
-    }
-
-    #right__nav {
-        width: 90%;
-    }
-
-    #right__nav p {
-        margin-left: 16px;
-    }
-
-    .search__icon {
-        left: -3500px;
+    #footer_left, #footer_right {
+        padding: 20px 10px 0;
     }
 }

@@ -1,0 +1,125 @@
+/*ipad pro*/
+@media only screen and (max-width: 1024px){
+    .left-header {
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    .right-header .link {
+        width: 350px;
+        margin-left: 60px;
+    }
+
+    .btn {
+        margin-right: 30px;
+    }
+
+    .album_one .left_picture{
+        width: 250px;
+        height: 350px;
+        margin-left: 12px;
+    }
+    .album_one .left_picture > img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .album_one .right_description {
+        width: 650px;
+        margin-right: 20px;
+    }
+
+    
+    .right_description > .picture_etc > img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .right_description .desc{
+        text-align: justify;
+    }
+
+    .album_two .left_picture {
+        margin-right: 24px;
+    }
+
+    .album_two .right_description {
+        margin-left: 20px;
+    }
+}
+
+/*iphone x*/
+@media only screen and (max-width: 376px) {
+    .wrap {
+        width: 375px;
+    }
+    .header {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .left-header {
+        justify-content: center;
+        gap: 25px;
+    }
+    .right-header .link {
+        width: 0;
+    }
+
+    .right-header .link > a{
+        display: none;
+    }
+
+    .left-header .picture {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .right-header {
+        width: 200px;
+    }
+    .right-header .btn {
+       display: flex;
+       justify-content: space-between;
+
+    
+    }
+
+    .right-header .btn > button{
+       width: 95px;
+       height: 40px;
+       font-size: 12px;
+       text-align: center;
+       margin-top: 5px;
+    }
+
+    .album_one {
+       width: 375px;
+       margin: 220px auto;
+    }
+
+    .album_one {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+    
+    .album_one .left_picture {
+        width: 100px;
+        margin-top: 50px;
+    }
+
+    .album_one .right_description {
+        width: 375px;
+    }
+
+
+
+}
+
+
+

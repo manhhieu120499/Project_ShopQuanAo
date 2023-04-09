@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEEAC3;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    width: 50%;
+}
+
+.right > img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+

@@ -1,0 +1,10 @@
+@media only screen and (max-width:1024px){
+    .wrapper {
+        width: 1024px;
+        align-items: center;
+    }
+
+    .left> .content {
+        margin-top: 400px;
+    }
+}

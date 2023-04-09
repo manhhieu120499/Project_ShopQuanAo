@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1024)  {
+    .header .left-header {
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+

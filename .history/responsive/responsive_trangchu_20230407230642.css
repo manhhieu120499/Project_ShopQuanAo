@@ -1,0 +1,94 @@
+/*ipad pro*/
+@media only screen and (max-width: 1024px){
+    .left-header {
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    .right-header .link {
+        width: 350px;
+        margin-left: 60px;
+    }
+
+    .btn {
+        margin-right: 30px;
+    }
+
+    .album_one .left_picture{
+        width: 250px;
+        height: 350px;
+        margin-left: 12px;
+    }
+    .album_one .left_picture > img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .album_one .right_description {
+        width: 650px;
+        margin-right: 20px;
+    }
+
+    
+    .right_description > .picture_etc > img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .right_description .desc{
+        text-align: justify;
+    }
+
+    .album_two .left_picture {
+        margin-right: 24px;
+    }
+
+    .album_two .right_description {
+        margin-left: 20px;
+    }
+}
+
+/*iphone x*/
+@media only screen and (min-width: 375px) {
+    .header {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .right-header .link {
+        width: 0;
+    }
+
+    .right-header .link > a{
+        display: none;
+    }
+
+    .left-header .picture {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .right-header {
+        
+    }
+    .right-header .btn {
+        width: 70%;
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+    }
+
+    .right-header .btn > button{
+       width: 20%;
+       height: 15px;
+       font-size: 16px;
+       line-height: 15px;
+       text-align: center;
+    }
+}
+
+
+
