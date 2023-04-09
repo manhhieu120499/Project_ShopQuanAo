@@ -133,11 +133,12 @@
     width: 340px;
     height: 440px;
     border-radius: 10px;
+    will-change: transform
 }
 
 .left_picture img:hover {
     transform: scale(1.1);
-    transition: ease all 0.7s;
+    transition:all 0.7s;
 }
 
 .right_description {
