@@ -1,15 +1,15 @@
 /*ipad pro*/
-@media only screen and (max-width: 1024px){
+@media only screen and (min-width: 739px) and (max-width: 1024px){
     .wrap {
-        width: 1024px;
+        width: 100%;
     }
     .left-header {
-        width: 230px;
+        width: 22%;
         margin-left: 20px;
     }
 
     .right-header .link {
-        width: 350px;
+        width: 75%;
         margin-left: 60px;
     }
 
@@ -18,7 +18,7 @@
     }
 
     .album_one .left_picture{
-        width: 250px;
+        width: 25%;
         height: 350px;
         margin-left: 12px;
     }
@@ -29,13 +29,13 @@
     
     
     .album_one .right_description {
-        width: 650px;
+        width: 55%;
         margin-right: 20px;
     }
 
     
     .right_description > .picture_etc > img {
-        width: 200px;
+        width: 50%;
         height: 250px;
     }
 
@@ -56,10 +56,10 @@
 /*iphone x*/
 @media only screen and (max-width: 739px) {
     .wrap {
-        width: 739px;
+        width: 100%;
     }
     .header {
-        width: 739px;
+        width: 100%;
         display: flex;
         flex-direction: column;     
     }
@@ -67,7 +67,7 @@
     .left-header {
         justify-content: center;
         gap: 35px;
-        width: 739px;
+        width: 100%;
         text-align: center;
         margin-bottom: 10px;
     }
@@ -90,14 +90,14 @@
     }
     
     .right-header {
-        width: 739px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         
     }
     .right-header .btn {
        display: flex; 
-       width: 300px;
+       width: 40%;
        justify-content: flex-end;
     }
 
@@ -110,13 +110,13 @@
     }
 
     .album {
-        width: 739px;
+        width: 100%;
     }
 
     .album_one {
         display: flex;
         flex-direction: column;
-        width: 739px;
+        width: 100%;
         align-items: center;
         margin-top: 220px;
         margin-left: auto;
@@ -124,12 +124,12 @@
     }
     
     .album_one .left_picture {
-        width: 150px;
+        width: 20%;
         margin-top: 10px;
     }
 
     .album_one .right_description {
-        width: 600px;  
+        width: 85%;  
         margin-top: 10px;
         margin-right: 10px;
     }
@@ -145,18 +145,19 @@
     }
 
     .right_description .picture_etc {
-        width: 400px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
     
     .right_description > .picture_etc > img {
-        width: 100px;
-        height: 130px;
+        width: 30%;
+        height: 85%;
     }
 
     .album_two .left_picture> img{
-        width: 150px;
+        width: 100%;
+        height: 100%;
         /* padding-bottom: 15px; */
         margin-top: 0;
     }
@@ -168,18 +169,20 @@
     .album_two .right_description {
         margin-bottom: 0;
         margin-right: 15px;
+        width: 100%;
     }
 
     .footer {
-        width: 739px;
-        height: 300px;
+        width: 100%;
+        height: 40%;
         flex-direction: column;
         align-items: baseline;
-        gap: 5 px;
+        gap: 5px;
     }
 
     .right_footer, .left_footer {
         width: 100%;
+        height: 45%;
         font-size: 14px;
     }
 
