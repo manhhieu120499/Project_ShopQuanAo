@@ -18,14 +18,29 @@
         width: 100px;
         justify-content: flex-start;
     }
-    .right,
-    
+
+    .right,  
     .left,
     .content{
         width: 90%;
     }
+
     .right img {
         margin-top: 50px;
         background-size: contain;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .go_back {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .content .item > input {
+        width: 95%;
     }
 }
