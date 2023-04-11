@@ -18,9 +18,21 @@ html {
     color: red;
 }
 
+.ul_right_nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.ul_right_nav > li > a {
+    color: #000;
+}
+
 /* NAV */
 .nav {
     position: fixed;
+    z-index: 1;
     width: 100%;
     height: 70px;
     color: #000;
@@ -83,7 +95,6 @@ html {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    /* display: none; */
 }
 
 #left__nav_ul_list {
@@ -153,6 +164,11 @@ html {
     height: 336px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px; 
+}
+
+.product_list_iterm > img:hover {
+    transform: scale(1.1);
+    transition: ease all 0.7s;
 }
 
 .product_list_iterm {
