@@ -72,6 +72,7 @@
 @media only screen and (max-width: 739px) {
     .wrap {
         width: 100%;
+        position: relative;
     }
     .header {
         width: 100%;
@@ -130,8 +131,8 @@
     }
     
     .slide_bar {
-        height: 100%;
         margin-top: 180px;
+        position: absolute;
     }
 
     .slide_bar> img{
@@ -148,7 +149,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        margin-top: 220px;
+        margin-top: 415px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 15px;
