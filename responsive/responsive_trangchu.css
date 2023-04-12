@@ -33,7 +33,11 @@
     }
 
     .slide_bar {
-        height: auto;
+        height: 100%;
+    }
+
+    .album_one{
+        margin-top: 20px;
     }
 
     .right_description > .picture_etc > img {
@@ -52,6 +56,15 @@
     .album_two .right_description {
         margin-left: 20px;
     }
+
+    .right-header .btn > button{
+        width: 95px;
+        height: 40px;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 5px;
+     }
+
 }
 
 
@@ -114,6 +127,11 @@
        font-size: 12px;
        text-align: center;
        margin-top: 5px;
+    }
+    
+    .slide_bar {
+        height: 100%;
+        margin-top: 180px;
     }
 
     .slide_bar> img{

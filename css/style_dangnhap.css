@@ -17,6 +17,11 @@
     height: 100%;
 }
 
+.left .go_back > a {
+    text-decoration: none;
+    color: black;
+}
+
 .left .go_back {
     width: 250px;
     display: flex;
