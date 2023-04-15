@@ -149,7 +149,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        margin-top: 415px;
+        margin-top: 595px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 15px;
@@ -263,6 +263,20 @@
     } 
 
     
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .album_one {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 430px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
 }
 
 
