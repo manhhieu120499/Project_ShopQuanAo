@@ -1,0 +1,65 @@
+@media only screen and (max-width:1050px){
+    .wrapper {
+        align-items: center;
+
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form > a {
+        margin-top: 10px;
+    }
+
+    .link {
+        margin-top: 0;
+    }
+    .remember {
+        width: 80%;
+    }
+    
+    .email, .password {
+        gap: 20px;
+    }
+    
+    .email input, 
+    .password input {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 739px){
+    .wrapper {
+        width: 100%;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    
+    .go_back {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .left, .right {
+        width: 90%;
+    }
+
+    .left .content{
+        width: 100%;
+    }
+
+    .right {
+        margin-top: 60px;
+    }
+
+    .right > img {
+        border-radius: 10px;
+    }
+
+    .remember {
+        width: 95%;
+    }
+
+}
