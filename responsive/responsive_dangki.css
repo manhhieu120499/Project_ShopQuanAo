@@ -28,6 +28,7 @@
     .right img {
         margin-top: 50px;
         background-size: contain;
+        border-radius: 10px;
     }
 
     .wrapper {
