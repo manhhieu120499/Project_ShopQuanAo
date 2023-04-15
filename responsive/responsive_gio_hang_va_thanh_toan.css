@@ -1,0 +1,46 @@
+@media screen and (max-width: 1024px){
+    .wrapper {
+        width: 100%;
+    }
+
+    .header {
+       gap: 30%;
+    }
+
+    .right_center input,
+    select,
+    .right_center button {
+        width: 80%;    
+    }
+
+    
+}
+
+
+@media screen and (max-width: 739px){
+    .wrapper {
+        width: 100%;
+    }
+
+    .header {
+        gap: 20%;
+    }
+
+    .center {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .left_center, .right_center {
+        width: 90%;
+    }
+
+    .item_desc {
+        flex-direction: column;
+    }
+
+    .right_center button {
+        font-size: 20px;
+    }
+}
