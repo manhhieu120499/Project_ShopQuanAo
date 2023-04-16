@@ -96,7 +96,7 @@
 /* slide bar*/
 .slide_bar {
     margin-top: 122px;
-    height: 650px;
+
 }
 
 .slide_bar > img{
@@ -114,7 +114,7 @@
     flex-direction: column;
 }
 .album_one {
-    margin-top: 250px;
+    margin-top: 50px;
     
     width: calc(100% - 32px);
     margin-left: 32px;
