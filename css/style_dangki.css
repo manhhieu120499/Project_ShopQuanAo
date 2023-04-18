@@ -31,7 +31,6 @@
 
 .left .content {
     width: 80%;
-    height: 532px;
     border-radius: 10px;
     background-color: #FED98F;
     margin: 70px auto;
@@ -65,6 +64,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px auto;
+    gap: 24px;
 }
 
 
@@ -73,23 +73,22 @@ form .item{
     margin: auto;
     height: 50px;
     border: 1px solid #ccc;
-    line-height: 50px;
+    line-height: 41px;
     background-color: white;
     padding-left: 20px;
     border-radius: 40px;
 }
 
 .item input {
-    border: none;
+    border: none; 
 }
 
 .item input:focus {
     outline: none;
 }
 
-form > a {
+form .form_submit {
     margin: 20px auto 5px;
-    text-decoration: none;
     width: 80%;
     height: 60px;
     text-align: center;
@@ -99,6 +98,14 @@ form > a {
     font-size: 26px;
     background-color: white;
     font-weight: 700;
+}
+
+.form_submit > a{
+    text-decoration: none;
+}
+
+.invalid {
+    color: red;
 }
 
 
