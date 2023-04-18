@@ -44,4 +44,9 @@
     .content .item > input {
         width: 95%;
     }
+
+.content form {
+    width: 90%;
+    gap: 24px;
+}
 }
