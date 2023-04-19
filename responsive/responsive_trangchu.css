@@ -155,13 +155,13 @@
     }
     
     .album_one .left_picture > img{
-        width: 50%;
-       height: 100%;
+        width: 60%;
+       height: 80%;
+       margin-top: 8%;
     }
 
     .album_one .right_description {
         width: 85%;  
-        margin-top: 10px;
         margin-right: 10px;
     }
 
@@ -184,14 +184,12 @@
     .right_description > .picture_etc > img {
         width: 33%;
         padding: 5px;
-        /* height: 75%; */
     }
 
     .album_two .left_picture> img{
-        width: 50%;
-        height: 100%;
-        /* padding-bottom: 15px; */
-        margin-top: 5px;
+        width: 60%;
+        height: 80%;
+        margin-top: 9%;
     }
 
     .album_two {
