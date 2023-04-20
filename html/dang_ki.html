@@ -23,28 +23,33 @@
 
              <div class="content">
                 <h1>Chào mừng đến với HA SHOP</h1>
-                <form action="">
+                <form action="" id="form_access">
                     <div class="item">
-                        <input type="text" placeholder="Họ">
+                        <input type="text" id="first_name" placeholder="Họ"><br>
+                        <span class="form_message"></span>
                     </div>
 
                     <div class="item">
-                        <input type="text" placeholder="Tên">
+                        <input type="text" id="last_name" placeholder="Tên"><br>
+                        <span class="form_message"></span>
                     </div>
 
                     <div class="item">
-                        <input type="email" placeholder="Email">
+                        <input type="email" id="mail" placeholder="Email"><br>
+                        <span class="form_message"></span>
                     </div>
 
                     <div class="item">
-                        <input type="password" placeholder="Mật khẩu">
+                        <input type="password" id="pass" placeholder="Mật khẩu"><br>
+                        <span class="form_message"></span>
                     </div>
 
                     <div class="item">
-                        <input type="password" placeholder="Xác nhận mật khẩu">
+                        <input type="password" id="pass_confirm" placeholder="Xác nhận mật khẩu"><br>
+                        <span class="form_message"></span>
                     </div>
 
-                    <a href="#">Đăng Kí</a>
+                    <button class="form_submit" ><a href="#">Đăng Kí</a></button>
                 </form>
                 
              </div>
@@ -53,5 +58,29 @@
             <img src="/image/image_dangki/dangki.png" alt="picture_shop">
         </div>
     </div>
+
+    <script src="/js/dangki.js">
+
+    </script>
+    <script>
+        Validator({
+            form: '#form_access',
+            errorMessage: '.form_message',
+            rules: [
+                Validator.isRequired('#first_name'),
+                Validator.isName('#first_name', "Họ là kí tự chữ"),
+                Validator.isRequired('#last_name'),
+                Validator.isName('#last_name', "Tên là kí tự chữ"),
+                Validator.isRequired('#mail'),
+                Validator.isEmail('#mail'),
+                Validator.isRequired('#pass'),
+                Validator.isPassword('#pass', 6),
+                Validator.isRequired('#pass_confirm'),
+                Validator.isConfirm('#pass_confirm', function () {
+                    return document.querySelector('#form_access .item #pass').value;
+                }),
+            ]
+        });
+    </script>
 </body>
 </html>
