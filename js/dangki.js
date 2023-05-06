@@ -1,3 +1,6 @@
+
+var list_user = [];
+var storageKey = "";
 function Validator(options) {
 
     var selectorRules = {};
@@ -30,6 +33,13 @@ function Validator(options) {
                 var inputElement = formElement.querySelector(rule.selector);
                 validate(inputElement, rule);
             });
+            if(check_user() === true) {
+                addItemToLocalStorage();
+                alert("Đăng kí thành công");
+                window.location.href = "ban_hang.html";
+            }else {
+                alert("Email này đã được đăng kí, vui lòng nhập email mới");
+            }
         } 
        options.rules.forEach((rule) => {
            if(Array.isArray(selectorRules[rule.selector])) {
@@ -105,3 +115,36 @@ Validator.isName = function(selector, message) {
         }
     }
 }
+
+
+
+function addItemToLocalStorage() {
+    var first_name = document.getElementById('first_name').value;
+    var last_name = document.getElementById('last_name').value;
+    var email = document.getElementById('mail').value;
+    var password = document.getElementById('pass').value;
+    var user = {
+        first_name: first_name,
+        last_name: last_name,
+        email: email,
+        password: password
+    }
+    list_user.push(user);
+    storageKey = "id" + "_" + (Math.floor(Math.random()*(1000)) + 1);
+    localStorage.setItem(storageKey, JSON.stringify(user));
+}
+
+function check_user() {
+    var email = document.getElementById('mail').value;
+    for(let i = 0 ; i < localStorage.length ; i++) {
+        var temp = localStorage.key(i);
+        var data = localStorage.getItem(temp);
+        var user = JSON.parse(data);
+        if(user.email === email) {
+            return false;
+        }
+    }
+    return true;
+}
+
+
