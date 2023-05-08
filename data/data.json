@@ -1,0 +1,204 @@
+{
+    "product":[
+        {
+            "id": 1,
+            "name": "Váy Tay Bồng Caro",
+            "picture": "../image/img_banhang/18.jpg",
+            "price": "358.000 VND",
+            "quantity": 20
+        },
+        {
+            "id": 2,
+            "name": "Áo Sơ Mi Nam Tay Dài",
+            "picture": "../image/img_banhang/19.jpg",
+            "price": "400.000 đ",
+            "quantity": 15
+        },
+        {
+            "id": 3,
+            "name": "Áo Hoodies Đôi",
+            "picture": "../image/img_banhang/20.jpg",
+            "price": "540.000 đ",
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Áo Polo Nam Kẻ Sọc",
+            "picture": "../image/img_banhang/17.jpg",
+            "price": "329.000 đ",
+            "quantity": 30
+        },
+        {
+            "id": 5,
+            "name": "Áo Khoác Măng Tô Nữ",
+            "picture": "../image/img_banhang/15.jpg",
+            "price": "458.000 đ",
+            "quantity": 17
+        },
+        {
+            "id": 6,
+            "name": "Jeans Dài",
+            "picture": "../image/img_banhang/34.jpg",
+            "price": "399.000 đ",
+            "quantity": 20
+        },
+        {
+            "id": 7,
+            "name": "Áo Len Nữ Cổ Tròn",
+            "picture": "../image/img_banhang/44.jpg",
+            "price": "239.000 đ",
+            "quantity": 27
+        },
+        {
+            "id": 8,
+            "name": "Quần Short Kaki Nữ",
+            "picture": "../image/img_banhang/21.jpg",
+            "price": "206.000 đ",
+            "quantity": 27
+        },
+        {
+            "id": 9,
+            "name": "Áo Len Nam Tay Dài",
+            "picture": "../image/img_nam/22.jpg",
+            "price": "239.000 đ",
+            "quantity": 27
+        }, 
+        {
+            "id": 10,
+            "name": "Áo Khoác Gió Nam",
+            "picture": "../image/img_nam/26.jpg",
+            "price": "450.000 đ",
+            "quantity": 22
+        },
+        {
+            "id": 11,
+            "name": "Áo Thun Nam Trơn",
+            "picture": "../image/img_nam/23.jpg",
+            "price": "250.000 đ",
+            "quantity": 27
+        }, 
+        {
+            "id": 12,
+            "name": "Quần Kaki Nam Trơn",
+            "picture": "../image/img_nam/24.jpg",
+            "price": "439.000 đ",
+            "quantity": 33
+        },
+        {
+            "id": 13,
+            "name": "Quần Jogger",
+            "picture": "../image/img_nam/25.jpg",
+            "price": "529.000 đ",
+            "quantity": 27
+        }, 
+        {
+            "id": 14,
+            "name": "Váy Baby Doll",
+            "picture": "../image/img_vay/11.jpg",
+            "price": "280.000 đ",
+            "quantity": 15
+        }, 
+        {
+            "id": 15,
+            "name": "Váy Yếm Xếp Ly",
+            "picture": "../image/img_vay/3.jpg",
+            "price": "529.000 đ",
+            "quantity": 27
+        }, 
+        {
+            "id": 16,
+            "name": "Váy Phong Cách Hàn Quốc",
+            "picture": "../image/img_vay/30.jpg",
+            "price": "450.000 đ",
+            "quantity": 10
+        }, 
+        {
+            "id": 17,
+            "name": "Váy Nữ Thu Đông",
+            "picture": "../image/img_vay/8.jpg",
+            "price": "529.000 đ",
+            "quantity": 27
+        }, 
+        {
+            "id": 18,
+            "name": "Váy Tay Dài Cổ Tròn",
+            "picture": "../image/img_vay/29.png",
+            "price": "624.000 đ",
+            "quantity": 30
+        }, 
+        {
+            "id": 19,
+            "name": "Váy Nhung",
+            "picture": "../image/img_vay/31.jpg",
+            "price": "470.000 đ",
+            "quantity": 15
+        },
+        {
+            "id": 20,
+            "name": "Khoác Blazzer Kèm Váy",
+            "picture": "../image/img_vay/32.jpg",
+            "price": "609.000 đ",
+            "quantity": 18
+        }, 
+        {
+            "id": 21,
+            "name": "Áo khoác jean nam nữ",
+            "picture": "../image/img_capdoi/1.jpg",
+            "price": "280.000 đ",
+            "quantity": 37
+        },
+        {
+            "id": 22,
+            "name": "Áo sơ mi nam + Váy yếm",
+            "picture": "../image/img_capdoi/2.jpg",
+            "price": "329.000 đ",
+            "quantity": 25
+        }, 
+        {
+            "id": 23,
+            "name": "Áo gile túi hộp",
+            "picture": "../image/img_capdoi/3.jpg",
+            "price": "450.000 đ",
+            "quantity": 20
+        },
+        {
+            "id": 24,
+            "name": "Áo sơ mi tay ngắn có túi",
+            "picture": "../image/img_capdoi/4.jpg",
+            "price": "210.000 đ",
+            "quantity": 12
+        }, 
+        {
+            "id": 25,
+            "name": "Áo thun polo phối logo",
+            "picture": "../image/img_capdoi/5.jpg",
+            "price": "358.000 đ",
+            "quantity": 14
+        },
+        {
+            "id": 26,
+            "name": "Áo thun T-shirt LOVE BY THE SUN",
+            "picture": "../image/img_capdoi/6.jpg",
+            "price": "624.000 đ",
+            "quantity": 22
+        }, 
+        {
+            "id": 27,
+            "name": "Áo thun T-shirt tay ngắn ADER",
+            "picture": "../image/img_capdoi/7.jpg",
+            "price": "470.000 đ",
+            "quantity": 19
+        }, 
+        {
+            "id": 28,
+            "name": "Áo thun polo tay ngắn thêu chữ",
+            "picture": "../image/img_capdoi/8.jpg",
+            "price": "600.000 đ",
+            "quantity": 24
+        }
+      
+
+    ]
+        
+    
+}
