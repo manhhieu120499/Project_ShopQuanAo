@@ -9,14 +9,21 @@
         display: block;
         width: 80%;
         margin-left: -6%;
-        height: 900px;
-        margin-top: -5px;
+        height: 1100px;
+
     }
 
-    .left_image img {
-        margin-left: 120%;
+    .left_image > img {
+        margin-left: 40%;
         margin-top: 50px;
         margin-bottom: 30px;
+        height: 500px;
+        
+    }
+
+    .container .left_image {
+        width: 60%;
+        height: 50%;
     }
 
     .right_des {
@@ -25,6 +32,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding-top: 100px;
     }
 }
 
@@ -34,15 +42,21 @@
         display: block;
         width: 80%;
         margin-left: -6%;
-        height: 900px;
-        margin-top: -100px;
+        height: 850px;
+
     }
 
-    .left_image img {
-        margin-left: 120%;
-        margin-top: 50px;
-        /* width: 300px; */
+    .left_image > img {
+        margin-left: 40%;
+        margin-top: 20px;
         margin-bottom: 30px;
+        height: 500px;
+        
+    }
+
+    .container .left_image {
+        width: 60%;
+        height: 50%;
     }
 
     .right_des {
@@ -51,6 +65,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding-top: 70px;
     }
 } 
 
@@ -60,29 +75,29 @@
         display: block;
         width: 80%;
         margin-left: -6%;
-        height: 700px;
-        margin-top: -80px;
+        height: 680px;
     }
 
-    .left_image img {
-        margin-left: 120%;
+    .left_image > img {
+        margin-left: 40%;
         margin-top: 50px;
-        /* width: 300px; */
         margin-bottom: 30px;
+        height: 500px;
+        
+    }
+
+    .container .left_image {
+        width: 60%;
+        height: 30%;
     }
 
     .right_des {
-        width: 90%;
-        margin-left: 20px;
+        width: 80%;
+        margin-left: 10%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-
-    .btn > a:first-child {
-        display: block;
-        width: 100%;
-
+        padding-top: 100px;
     }
   
 }
