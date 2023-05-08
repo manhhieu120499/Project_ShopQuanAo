@@ -158,6 +158,9 @@ html {
     margin: 40px 5%;
 }
 
+.show_img img {
+    cursor: pointer;
+}
 
 #product_list, #product_detail {
     display: grid;
