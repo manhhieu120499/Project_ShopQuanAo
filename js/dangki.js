@@ -33,12 +33,16 @@ function Validator(options) {
                 var inputElement = formElement.querySelector(rule.selector);
                 validate(inputElement, rule);
             });
-            if(check_user() === true) {
-                addItemToLocalStorage();
-                alert("Đăng kí thành công");
-                window.location.href = "ban_hang.html";
+            if(check()) {
+                if(check_user() === true) {
+                    addItemToLocalStorage();
+                    alert("Đăng kí thành công");
+                    window.location.href = "ban_hang.html";
+                }else {
+                    alert("Email này đã được đăng kí, vui lòng nhập email mới");
+                }
             }else {
-                alert("Email này đã được đăng kí, vui lòng nhập email mới");
+                alert("Vui lòng nhập đầy đủ thông tin");
             }
         } 
        options.rules.forEach((rule) => {
@@ -143,6 +147,18 @@ function check_user() {
         if(user.email === email) {
             return false;
         }
+    }
+    return true;
+}
+
+function check() {
+    var first_name = document.getElementById('first_name').value;
+    var last_name = document.getElementById('last_name').value;
+    var email = document.getElementById('mail').value;
+    var password = document.getElementById('pass').value;
+    var password_conf = document.getElementById('pass_confirm').value;
+    if(first_name === "" || last_name === "" || email === "" || password === "" || password_conf === "") {
+        return false;
     }
     return true;
 }
