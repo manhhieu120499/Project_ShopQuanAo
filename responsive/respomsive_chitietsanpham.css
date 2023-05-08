@@ -1,0 +1,88 @@
+/*PC*/
+@media (min-width:1040px) {
+    
+}
+
+/*SMALL PC and IPAD PRO*/
+@media (min-width:1024px)  and (max-width:1039px) {
+    .container {
+        display: block;
+        width: 80%;
+        margin-left: -6%;
+        height: 900px;
+        margin-top: -5px;
+    }
+
+    .left_image img {
+        margin-left: 120%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .right_des {
+        width: 80%;
+        margin-left: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+/*TABLET*/
+@media (min-width:740px) and (max-width:1023px) {
+    .container {
+        display: block;
+        width: 80%;
+        margin-left: -6%;
+        height: 900px;
+        margin-top: -100px;
+    }
+
+    .left_image img {
+        margin-left: 120%;
+        margin-top: 50px;
+        /* width: 300px; */
+        margin-bottom: 30px;
+    }
+
+    .right_des {
+        width: 80%;
+        margin-left: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} 
+
+/*PHONE*/
+@media (max-width:739px) {
+    .container {
+        display: block;
+        width: 80%;
+        margin-left: -6%;
+        height: 700px;
+        margin-top: -80px;
+    }
+
+    .left_image img {
+        margin-left: 120%;
+        margin-top: 50px;
+        /* width: 300px; */
+        margin-bottom: 30px;
+    }
+
+    .right_des {
+        width: 90%;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .btn > a:first-child {
+        display: block;
+        width: 100%;
+
+    }
+  
+}

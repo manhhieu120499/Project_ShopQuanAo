@@ -195,7 +195,87 @@
             "picture": "../image/img_capdoi/8.jpg",
             "price": "600.000 đ",
             "quantity": 24
-        }
+        },
+        {
+            "id": 29,
+            "name": "Áo sơ mi khoác ngoài",
+            "picture": "../image/img_sale/sale2.png",
+            "price": "280.000 đ",
+            "quantity": 24
+        },
+        {
+            "id": 30,
+            "name": "Áo thun cổ bẻ trơn",
+            "picture": "../image/img_sale/sale1.png",
+            "price": "329.000 đ",
+            "quantity": 29
+        },
+        {
+            "id": 31,
+            "name": "Áo thun sọc tay ngắn",
+            "picture": "../image/img_sale/sale7.png",
+            "price": "450.000 đ",
+            "quantity": 34
+        },
+        {
+            "id": 32,
+            "name": "Áo thun polo nam",
+            "picture": "../image/img_sale/sale8.png",
+            "price": "210.000 đ",
+            "quantity": 10
+        },
+        {
+            "id": 33,
+            "name": "Áo 2 dây croptop",
+            "picture": "../image/img_sale/sale3.png",
+            "price": "358.000 đ",
+            "quantity": 4
+        },
+        {
+            "id": 33,
+            "name": "Áo khoác bomber in chữ",
+            "picture": "../image/img_sale/sale4.png",
+            "price": "624.000 đ",
+            "quantity": 21
+        },
+        {
+            "id": 34,
+            "name": "Áo babydoll cổ viền bèo",
+            "picture": "../image/img_sale/sale6.png",
+            "price": "470.000 đ",
+            "quantity": 15
+        },
+        {
+            "id": 35,
+            "name": "Áo tay ngắn cổ vest",
+            "picture": "../image/img_sale/sale5.png",
+            "price": "609.000 đ",
+            "quantity": 24
+        },
+        {
+            "id": 36,
+            "name": "Áo len nam sọc kẻ ngang",
+            "picture": "../image/img_nam/27.jpg",
+            "price": "499.000 đ",
+            "quantity": 16
+        },
+        {
+            "id": 37,
+            "name": "Áo sơ mi nam tay dài",
+            "picture": "../image/img_nam/19.jpg",
+            "price": "400.000 đ",
+            "quantity": 2
+        },
+        {
+            "id": 38,
+            "name": "Áo polo nam kẻ sọc",
+            "picture": "../image/img_nam/17.jpg",
+            "price": "329.000 đ",
+            "quantity": 30
+        },
+        
+
+
       
 
     ]
