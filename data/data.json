@@ -16,7 +16,7 @@
         },
         {
             "id": 3,
-            "name": "Áo Hoodies VNDôi",
+            "name": "Áo Hoodies đôi",
             "picture": "../image/img_banhang/20.jpg",
             "price": "540.000 VND",
             "quantity": 10
@@ -273,12 +273,5 @@
             "price": "329.000 VND",
             "quantity": 30
         }
-     
-
-
-      
-
-    ]
-        
-    
+    ]         
 }
