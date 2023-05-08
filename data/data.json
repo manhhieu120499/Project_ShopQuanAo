@@ -101,7 +101,7 @@
         {
             "id": 15,
             "name": "Váy Yếm Xếp Ly",
-            "picture": "../image/img_vay/3.jpg",
+            "picture": "../image/img_vay/3.jfif",
             "price": "529.000 VND",
             "quantity": 27
         }, 
@@ -114,8 +114,8 @@
         }, 
         {
             "id": 17,
-            "name": "Váy Nữ Thu VNDông",
-            "picture": "../image/img_vay/8.jpg",
+            "name": "Váy Nữ Thu Dông",
+            "picture": "../image/img_vay/8.jfif",
             "price": "529.000 VND",
             "quantity": 27
         }, 
