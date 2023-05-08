@@ -1,0 +1,35 @@
+.container {
+    animation: faceIn ease 0.5s;
+    position: absolute;
+    /* margin-top: 1750px; */
+    
+    z-index: 2;
+    overflow: hidden;
+}
+
+@keyframes faceIn {
+    from {
+        transform: translateY(-300px);
+    }to {
+        transform: translateY(0);
+    }
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.open {
+    display: flex;
+}
+
+
